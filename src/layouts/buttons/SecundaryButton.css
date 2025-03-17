@@ -1,0 +1,9 @@
+#secundary-button{
+    background: transparent;
+    border: 2px solid var(--main-white);
+    border-radius: 50px;
+    color: var(--main-white);
+    font-size: 17px;
+    font-weight: bolder;
+    padding: .7rem 2.8rem .7rem 2.8rem;
+}

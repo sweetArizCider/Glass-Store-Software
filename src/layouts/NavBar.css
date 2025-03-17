@@ -1,0 +1,66 @@
+:root{
+    --navBarBgColor: #fff;
+}
+#navBar{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 19rem;
+    flex-direction: row;
+    height: 3.7rem;
+    background-color: var(--navBarBgColor);
+}
+
+.socialLinks{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: .25rem;
+    align-items: center;
+}
+
+.svg{
+    width: 1.9rem;
+    height: 1.9rem;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo img{
+    width: 6.5rem;
+    height: 1.6rem;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.navIcons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: .25rem;
+    align-items: center;
+}
+
+.anchorIcon{
+    display: flex;
+    justify-content: center;
+}
+
+.anchorIcon:hover{
+    scale: 1.1;
+}
+
+.svgOptions{
+    width: 1.56rem;
+    height: 1.56rem;
+}
+
+.svgOptions:hover{
+    cursor: pointer;
+    scale: 1.2;
+}

@@ -1,0 +1,31 @@
+.background{
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(180deg, rgba(32, 59, 102, 0.26) 0%, rgba(19, 38, 68, 0.26) 100%), url(../../../public/images/background/background.jpeg)center/cover no-repeat;
+  background-size: cover;
+  background-position: 70%;
+}
+
+.content{
+  margin: 10rem 0rem 0rem 4rem;
+  width: 30rem;
+  height: 13rem;
+}
+
+.content header{
+  margin-bottom: 1rem;
+}
+
+.content header h1{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.content main p{
+  font-size: .85rem;
+}
+
+.content footer button{
+  margin-top: 1rem;
+}
+

@@ -1,0 +1,14 @@
+:root{
+    --main-bg-color: #222;
+    --main-text-color: #fff;
+    --main-white: #FFFFFF;
+    --main-black: #1d1d1d;
+    --main-border: #E3E3E3;
+
+
+}
+
+html{
+    background-color: var(--main-white);
+    color: var(--main-text-color);
+}
